@@ -1,49 +1,122 @@
 /* font import*/
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700;800&display=swap');
+
 /* primary elements */
-*{
+* {
     font-family: 'Mulish', sans-serif;
     margin: 0;
     padding: 0;
 }
+
 /*  header*/
 
-header{
-   padding: 50px 127px 50px 135px;
+header {
+    padding: 50px 90px 50px 135px;
+
 }
-.orange{
-    color:  #FF5400;
+
+.orange {
+    color: #FF5400;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#logo{
+
+#logo {
     display: flex;
     align-items: center;
-    }
-    #logo h3{
-        font-size: 2.25rem;
-        font-weight: 800;
-    }
-nav ul{
+}
+
+#logo h3 {
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+nav ul {
     display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 40px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+}
+
+main {
+    max-width: 81.25%;
+    margin: 0 auto;
+}
+
+.banner-content {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Banner.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+    border-radius: 16px;
+    width: 100%;
+
+}
+
+.banner-content h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 106px;
+}
+
+.banner-content p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+    width: 676px;
+    margin: 0 auto;
+}
+
+.banner-content input,
+select {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #FFF;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    padding: 16px;
+    margin-right: 24px;
     
 }
-
-nav li{
-list-style: none;
-margin-right: 40px;
-font-size: 1.2rem;
-font-weight: 400;
+.search-bar{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 48px;
+    padding: 16px;
 }
-
-nav li a{
-    text-decoration: none;
-    color:  #424247;
-text-align: center;
-
-
+.banner-content button {
+    color: #FFF;
+    text-align: center;
+    background-color: #FF5400;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: 700;
+    border: none;
+    padding: 16px;
+    width: 150px;
 
 }

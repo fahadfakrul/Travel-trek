@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Trek</title>
     <link rel="stylesheet" href="/styles/style.css">
+    <script src="https://kit.fontawesome.com/cb9b5a3d39.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -23,8 +24,26 @@
             </ul>
         </div>
         </nav>
+        
     </header>
-    <main></main>
+    <main>
+        <section class="banner">
+            <div class="banner-content">
+                <h1>Explore Your Travel</h1>
+                <p>Embark on a journey of discovery! Explore new horizons, cultures, and adventures. Your next unforgettable travel experience awaits you.</p>
+                <div class="search-bar">
+                    <input type="text" placeholder="Where go">
+                    <select name="time" id="time" >
+                        <option value="" disabled selected hidden>When</option>
+                    </select>
+                    <select name="time" id="time" >
+                        <option value="" disabled selected hidden>Where</option>
+                    </select>
+                    <button><i class="fa-solid fa-magnifying-glass" style="color: #FFF;"></i> Find Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
 </body>
 </html>
