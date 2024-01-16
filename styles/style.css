@@ -312,3 +312,41 @@ border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
 margin: 0 auto;
 }
+.unique{
+    
+    
+     margin-top: 100px;
+}
+.unique-content{
+    
+    text-align: center;
+}
+.unique-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.first-unique-card img{
+    width: 100%;
+    border-radius: 20px;
+}
+.second-unique-card img{
+    width: 100%;
+    border-radius: 20px;
+}
+.third-unique-card img{
+    width: 100%;
+    border-radius: 20px;
+}
+.unique-card p,h4{
+    text-align: left;
+    margin-top: 20px;
+}
+.unique-button{
+    border: none;
+    color: #FF5400;
+    background-color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+
+}
