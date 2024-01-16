@@ -55,7 +55,7 @@ nav li a {
 
 main {
     max-width: 81.25%;
-    
+
     margin: 0 auto;
 }
 
@@ -125,24 +125,24 @@ select {
 }
 
 .popular {
-    
+
     height: 550px;
     display: flex;
     width: 100%;
     margin: 100px auto;
-    
+
 }
 
 .popular-content {
     width: 50%;
-   height:100%;
-   
-   
+    height: 100%;
+
+
 }
 
 .popular-image {
     width: 50%;
-    
+
 }
 
 .section-title {
@@ -151,7 +151,8 @@ select {
     font-weight: 800;
     margin-bottom: 24px;
 }
-.list li{
+
+.list li {
     margin-bottom: 24px;
     margin-left: 20px;
     width: 500px;
@@ -175,52 +176,60 @@ select {
     background: #FF5400;
     padding: 14px 35px;
     border: none;
-    
+
 }
 
-.popular-image img{
-   
+.popular-image img {
+
     height: 100%;
     width: 90%;
     margin-left: 10%;
 }
-.dest-content{
- margin-bottom: 24px;
-}
-.dest-content h2, p{
-  text-align: center
+
+.dest-content {
+    margin-bottom: 24px;
 }
 
-.first-row{
+.dest-content h2,
+p {
+    text-align: center
+}
+
+.first-row {
     display: flex;
     width: 100%;
     gap: 24px;
     margin-bottom: 24px;
 }
+
 .first-row div {
     width: 50%;
-    
-}
-.first-row div img{
-    width: 100%;
-    height:100%;
-    position: relative;
-}
-.image{
-    position: relative;
-  text-align: center;
-  color: white;
-  font-size: 28px;
-font-weight: 800;
 
 }
-.name{
+
+.first-row div img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.image {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+.name {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.second-row{
+
+.second-row {
     display: grid;
     grid-template-columns: 31% 40.5% auto;
     width: 100%;
@@ -228,32 +237,78 @@ font-weight: 800;
     margin-bottom: 24px;
 }
 
-.second-row div img{
-    
+.second-row div img {
+
     width: 100%;
-    height:100%;
+    height: 100%;
 }
 
 
-.third-row{
+.third-row {
     display: grid;
     grid-template-columns: 40.5% auto;
     width: 100%;
     gap: 24px;
     margin-bottom: 100px;
 }
-.third-row div img{
-    
+
+.third-row div img {
+
     width: 100%;
-    height:100%;
+    height: 100%;
 }
 
-.choose-content h2, p{
+.choose-content h2,
+p {
     text-align: center
-  }
-  .choose-content{
-    border: 1px solid blue;
-  }
-  .card{
-    border: 1px solid red;
-  }
+}
+
+.choose-content {
+    
+    margin-bottom: 24px;
+}
+
+.card {
+   
+    width: 49%;
+    height: 284px;
+    padding: 32px;
+}
+.card p{
+    text-align: left;
+    margin-top: 16px;
+}
+.card h4{
+    margin-top: 32px;
+}
+.card-title{
+    color: #131318;
+
+
+font-size: 24px;
+
+font-weight: 800;
+
+}
+.first-row-card{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.first-card{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.second-card{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.third-card{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+margin: 0 auto;
+}
