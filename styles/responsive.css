@@ -1,0 +1,139 @@
+@media screen and (max-width:600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    main {
+        max-width: 100%;
+        margin: 0 10px;
+    }
+
+    #logo {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+
+    nav li {
+        padding-top: 20px;
+        padding-left: 50px;
+        text-align: center;
+    }
+
+    .banner-content {
+        height: auto;
+    }
+
+    .banner-content p {
+
+        max-width: 100%;
+
+    }
+
+    .search-bar {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+        background: none;
+    }
+
+    .search-bar input,
+    select,
+    button {
+        margin-top: 20px;
+
+    }
+
+    .banner-content button {
+        margin-left: -20px;
+    }
+
+    .popular {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .popular-content,
+    .popular-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .popular-image {
+        margin-top: 30px;
+    }
+
+    .list li {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .popular-image img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .first-row div img,
+    .second-row div img,
+    .third-row div img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .second-row,
+    .third-row {
+        grid-template-columns: 100%;
+    }
+
+
+    .card {
+        width: 90%;
+        margin-bottom: 24px;
+    }
+
+    .unique-card {
+        grid-template-columns: 1fr;
+    }
+
+    .news-letter {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .news-letter-form,
+    .news-letter-image {
+        width: 100%;
+    }
+
+    .news-letter-image {
+        margin-top: 30px;
+    }
+
+    footer {
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .footer-logo {
+        padding-top: 20px;
+    }
+
+    .social-links {
+        margin: 20px 0;
+    }
+
+    .social-links a {
+        margin-right: 10px;
+    }
+
+}
