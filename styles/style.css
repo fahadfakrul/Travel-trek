@@ -55,6 +55,7 @@ nav li a {
 
 main {
     max-width: 81.25%;
+    
     margin: 0 auto;
 }
 
@@ -129,10 +130,13 @@ select {
     display: flex;
     width: 100%;
     margin: 100px auto;
+    
 }
 
 .popular-content {
-    width: 50vw;
+    width: 50%;
+   height:100%;
+   
    
 }
 
@@ -159,7 +163,6 @@ select {
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
-    
     margin-bottom: 24px;
 }
 
@@ -172,10 +175,85 @@ select {
     background: #FF5400;
     padding: 14px 35px;
     border: none;
+    
 }
 
 .popular-image img{
-   margin-left: 10%;
+   
     height: 100%;
     width: 90%;
+    margin-left: 10%;
 }
+.dest-content{
+ margin-bottom: 24px;
+}
+.dest-content h2, p{
+  text-align: center
+}
+
+.first-row{
+    display: flex;
+    width: 100%;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.first-row div {
+    width: 50%;
+    
+}
+.first-row div img{
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+.image{
+    position: relative;
+  text-align: center;
+  color: white;
+  font-size: 28px;
+font-weight: 800;
+
+}
+.name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.second-row{
+    display: grid;
+    grid-template-columns: 31% 40.5% auto;
+    width: 100%;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.second-row div img{
+    
+    width: 100%;
+    height:100%;
+}
+
+
+.third-row{
+    display: grid;
+    grid-template-columns: 40.5% auto;
+    width: 100%;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+.third-row div img{
+    
+    width: 100%;
+    height:100%;
+}
+
+.choose-content h2, p{
+    text-align: center
+  }
+  .choose-content{
+    border: 1px solid blue;
+  }
+  .card{
+    border: 1px solid red;
+  }
