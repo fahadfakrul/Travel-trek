@@ -264,85 +264,101 @@ p {
 }
 
 .choose-content {
-    
+
     margin-bottom: 24px;
 }
 
 .card {
-   
+
     width: 49%;
     height: 284px;
     padding: 32px;
 }
-.card p{
+
+.card p {
     text-align: left;
     margin-top: 16px;
 }
-.card h4{
+
+.card h4 {
     margin-top: 32px;
 }
-.card-title{
+
+.card-title {
     color: #131318;
 
 
-font-size: 24px;
+    font-size: 24px;
 
-font-weight: 800;
+    font-weight: 800;
 
 }
-.first-row-card{
+
+.first-row-card {
     display: flex;
     /* justify-content: space-between; */
     gap: 24px;
     margin-bottom: 24px;
 }
-.first-card{
+
+.first-card {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
-.second-card{
+
+.second-card {
     border-radius: 16px;
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
 }
-.third-card{
+
+.third-card {
     border-radius: 16px;
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05);
-margin: 0 auto;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 0 auto;
 }
-.unique{
-    
-    
-     margin-top: 100px;
+
+.unique {
+
+
+    margin-top: 100px;
 }
-.unique-content{
-    
+
+.unique-content {
+
     text-align: center;
 }
-.unique-card{
+
+.unique-card {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-.first-unique-card img{
+
+.first-unique-card img {
     width: 100%;
     border-radius: 20px;
 }
-.second-unique-card img{
+
+.second-unique-card img {
     width: 100%;
     border-radius: 20px;
 }
-.third-unique-card img{
+
+.third-unique-card img {
     width: 100%;
     border-radius: 20px;
 }
-.unique-card p,h4{
+
+.unique-card p,
+h4 {
     text-align: left;
     margin-top: 20px;
 }
-.unique-button{
+
+.unique-button {
     border: none;
     color: #FF5400;
     background-color: #FFF;
@@ -350,37 +366,42 @@ margin: 0 auto;
     font-weight: 800;
 
 }
-.news-letter{
-  
-  margin-top: 100px;
-  display: flex;
-  height: 422px;
-  width: 100%;
-  justify-content: space-between;
+
+.news-letter {
+
+    margin-top: 100px;
+    display: flex;
+    height: 422px;
+    width: 100%;
+    justify-content: space-between;
 }
-.news-letter-form{
+
+.news-letter-form {
     width: 40.5%;
     border-radius: 16px;
-    border: 1px solid #FF5400;  
+    border: 1px solid #FF5400;
 }
-.news-letter-image{
+
+.news-letter-image {
     width: 57.5%;
-    
+
 }
-.news-letter-image img{
+
+.news-letter-image img {
     width: 100%;
-    height:100%;
-    
+    height: 100%;
+
 }
+
 .news-letter-form input {
     display: block;
     width: 65%;
-    margin: 0 auto; 
+    margin: 0 auto;
     border-radius: 8px;
-background: rgba(19, 19, 24, 0.05);
-border: none;
-padding: 16px;
-margin-bottom: 16px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    padding: 16px;
+    margin-bottom: 16px;
 }
 
 
@@ -392,31 +413,76 @@ margin-bottom: 16px;
 
 
 
-.news-letter-form p,h4{
+.news-letter-form p,
+h4 {
     margin-top: 40px;
 
 }
-.news-letter-form p,h4{
+
+.news-letter-form p,
+h4 {
     text-align: left;
     padding-left: 40px;
     margin-bottom: 16px;
-    
+
 }
-.news-letter-image{
+
+.news-letter-image {
     position: relative;
 }
-.save-tag{
+
+.save-tag {
     border-radius: 16px;
-background-color: #FF5400;
+    background-color: #FF5400;
     color: #FFF;
     text-align: center;
     width: 250px;
     padding: 20px 0px;
     position: absolute;
-     right: 1%; 
-     bottom: 13%;  
+    right: 1%;
+    bottom: 13%;
     transform: rotate(-30deg);
-     
+
 }
 
 
+footer {
+    align-items: center;
+    background: rgba(19, 19, 24, 0.05);
+    height: 502px;
+    margin-top: 100px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px;
+}
+
+.footer-logo h3 {
+
+
+    font-size: 32px;
+
+    font-weight: 800;
+
+}
+
+.footer-para {
+    margin-top: 20px;
+}
+
+.social-links {
+    margin: 30px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+
+    margin-right: 15px;
+    text-decoration: none;
+    color: #131318;
+
+}
